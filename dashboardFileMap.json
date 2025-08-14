@@ -1,0 +1,19 @@
+{
+    "dashboard_1": [
+        "datos-tabla-abajo-medicamentos.csv",
+        "GeoBilling - Hoja 1.csv",
+        "metricas-arriba.csv"
+    ],
+    "dashboard_2": [
+        "metricas-abajo.csv",
+        "valores-recetas.csv",
+        "medicamentos-mas-recetados.csv"
+    ],
+    "dashboard_3": [
+        "billing - Hoja 1.csv",
+        "datos-tabla-abajo-medicamentos.csv"
+    ]
+}
+
+// const files: string[] = myJSON["dashboard_1"]
+// busco en el bucket...
