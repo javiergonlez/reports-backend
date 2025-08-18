@@ -1,20 +1,20 @@
-interface S3DataResponse {
+type S3DataResponse = {
   message: string;
   files: string[];
   data: CsvFiles;
-}
+};
 
-interface S3DataErrorResponse {
+type S3DataErrorResponse = {
   message: string;
   error: string;
-}
+};
 
-interface CsvRow {
+type CsvRow = {
   [key: string]: string;
-}
+};
 
-interface CsvFiles {
+type CsvFiles = {
   [filename: string]: CsvRow[];
-}
+};
 
 export type { S3DataResponse, S3DataErrorResponse, CsvRow, CsvFiles };
